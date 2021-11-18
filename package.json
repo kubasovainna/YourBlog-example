@@ -1,0 +1,23 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "Итоговое задание по дисциплине «Cтруктурно-логическое проектирование и дизайн веб-сайтов»\r Цель работы: спроектировать и разработать структуру и дизайн веб-сайта (его части) на выбор студента.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch site/scss/styles.scss -o site/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubasovainna/YourBlog-example.git"
+  },
+  "author": "Kubasova Inna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kubasovainna/YourBlog-example/issues"
+  },
+  "homepage": "https://github.com/kubasovainna/YourBlog-example#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
